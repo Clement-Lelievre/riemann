@@ -16,9 +16,12 @@ st.markdown("""\n
 
     ## Le théorème de réarrangement, un théorème profondément contre-intuitif \n
 
-    ## Illustration avec la série harmonique alternée:
 """)
-st.markdown(''''    [Page Wikipédia du théorème](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_r%C3%A9arrangement_de_Riemann) 
+st.markdown('''   [Page Wikipédia du théorème](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_r%C3%A9arrangement_de_Riemann) \n
+''')
+
+st.markdown('''    ## Illustration avec la série harmonique alternée:\n
+
 ''')
 
 st.latex(r'''
@@ -44,8 +47,7 @@ plt.xlabel('Nombre de termes')
 plt.ylabel('Valeur de la série')
 st.pyplot()
 
-st.markdown("""
-## Changer l'ordre des termes, c'est modifier la somme de la série! 🤩
+st.markdown("""## Changer l'ordre des termes, c'est modifier la somme de la série! 🤩
 ## Mieux, on peut choisir la somme (n'importe quel réel, et même l'infini): il existera alors un "réarrangement" des termes menant à cette nouvelle limite\n
 """)
 st.markdown('''\n''')
