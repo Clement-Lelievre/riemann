@@ -17,10 +17,12 @@ st.markdown("""\n
     ## Le théorème de réarrangement, un théorème profondément contre-intuitif \n
 
 """)
-st.markdown('''   [Page Wikipédia du théorème](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_r%C3%A9arrangement_de_Riemann) \n
+
+st.markdown('''\n''')
+st.markdown('''[Page Wikipédia du théorème](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_r%C3%A9arrangement_de_Riemann) \n
 ''')
 
-st.markdown('''    ## Illustration avec la série harmonique alternée:\n
+st.markdown('''##Illustration avec la série harmonique alternée:\n
 
 ''')
 
