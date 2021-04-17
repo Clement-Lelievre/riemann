@@ -16,10 +16,10 @@ st.markdown("""\n
 
     ## Le théorème de réarrangement, un théorème profondément contre-intuitif \n
 
-    [Page Wikipédia du théorème](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_r%C3%A9arrangement_de_Riemann) 
-
     ## Illustration avec la série harmonique alternée:
 """)
+st.markdown(''''    [Page Wikipédia du théorème](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_r%C3%A9arrangement_de_Riemann) 
+''')
 
 st.latex(r'''
     \sum_{k=1}^\infty \frac{(-1)^{k+1}}{k} = 1 - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} + \cdots \xrightarrow{\enskip\\} ln(2)
@@ -48,7 +48,7 @@ st.markdown("""
 ## Changer l'ordre des termes, c'est modifier la somme de la série! 🤩
 ## Mieux, on peut choisir la somme (n'importe quel réel, et même l'infini): il existera alors un "réarrangement" des termes menant à cette nouvelle limite\n
 """)
-
+st.markdown('''\n''')
 
 st.sidebar.write(f'<a href="#Changer la somme de la série! 💪">Changer la somme de la série! 💪</a>', unsafe_allow_html=True)
 st.write(f'<a name="Changer la somme de la série! 💪"></a>', unsafe_allow_html=True)
@@ -57,6 +57,8 @@ st.write(f'<a name="Changer la somme de la série! 💪"></a>', unsafe_allow_htm
 st.markdown("""## Choisir la nouvelle limite de la série, le graphique s'actualisera 👇🏻\n
 
 """)
+st.markdown('''\n''')
+
 
 st.sidebar.markdown("""
 
