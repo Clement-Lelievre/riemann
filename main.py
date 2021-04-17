@@ -102,8 +102,7 @@ if new_sum:
     plt.xlabel('Nombre de termes')
     plt.ylabel('Valeur de la série')
     st.pyplot()
-    termes = 'terme' if cycle_size[-1]+1 == 1 else 'termes'
-    st.info(f'Après quelques itérations, chaque "cycle"  contient {cycle_size[-1]+1} '+ termes+'! Autrement dit, le nombre de termes utilisés par "cycle" converge! 😲')
+    st.info(f'Après quelques itérations, chaque "cycle"  contient {int(sum(cycle_size)/len(cycle_size))} termes! Autrement dit, le nombre de termes utilisés par "cycle" converge! 😲')
 
 
 
