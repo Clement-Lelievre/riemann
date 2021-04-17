@@ -12,9 +12,9 @@ st.sidebar.write(f'''<a href="#♾️ Riemann (1826-1866), explorateur de l'infi
 st.write(f'''<a name="♾️ Riemann (1826-1866), explorateur de l'infini ♾️"></a>''', unsafe_allow_html=True)
 '''# ♾️ Riemann (1826-1866), explorateur de l'infini ♾️'''
 
-st.markdown("""
+st.markdown("""\n
 
-    ## Le théorème de réarrangement, un théorème profondément contre-intuitif 
+    ## Le théorème de réarrangement, un théorème profondément contre-intuitif \n
 
     [Page Wikipédia du théorème](https://fr.wikipedia.org/wiki/Th%C3%A9or%C3%A8me_de_r%C3%A9arrangement_de_Riemann) 
 
@@ -46,7 +46,7 @@ st.pyplot()
 
 st.markdown("""
 ## Changer l'ordre des termes, c'est modifier la somme de la série! 🤩
-## Mieux, on peut choisir la somme (n'importe quel réel, et même l'infini): il existera alors un "réarrangement" des termes menant à cette nouvelle limite
+## Mieux, on peut choisir la somme (n'importe quel réel, et même l'infini): il existera alors un "réarrangement" des termes menant à cette nouvelle limite\n
 """)
 
 
@@ -54,7 +54,7 @@ st.sidebar.write(f'<a href="#Changer la somme de la série! 💪">Changer la som
 st.write(f'<a name="Changer la somme de la série! 💪"></a>', unsafe_allow_html=True)
 '# Changer la somme de la série! 💪'
 
-st.markdown("""## Choisir la nouvelle limite de la série, le graphique s'actualisera 👇🏻
+st.markdown("""## Choisir la nouvelle limite de la série, le graphique s'actualisera 👇🏻\n
 
 """)
 
